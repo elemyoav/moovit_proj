@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+
   pull_request:
     branches:
       - main
@@ -29,7 +30,7 @@ jobs:
     - name: Run tests
       run: |
         cd app
-        npx mocha tests
+        npm test
 
   build-and-push-docker:
     needs: build-and-test
