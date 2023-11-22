@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - add_testing_and_pipeline
 
 jobs:
   build-and-test:
