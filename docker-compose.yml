@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hello-world-app:
+    image: elemyoav/hello-world-app
+    ports:
+      - 8080:8080
+    restart: unless-stopped
