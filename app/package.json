@@ -19,5 +19,8 @@
   "homepage": "https://github.com/elemyoav/moovit_proj#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10"
   }
 }
