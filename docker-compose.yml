@@ -1,7 +1,15 @@
 version: '3'
 services:
   hello-world-app:
-    image: elemyoav/hello-world-app
+    image: elemyoav/hello-world-app:latest
     ports:
       - 8080:8080
     restart: unless-stopped
+
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - 80:80
+  
