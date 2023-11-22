@@ -11,6 +11,8 @@ services:
     restart: unless-stopped
 
   nginx:
+    depends_on:
+      - hello-world-app
     build:
       context: .
       dockerfile: Dockerfile.nginx
