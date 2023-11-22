@@ -2,17 +2,17 @@
   "name": "moovit_proj",
   "version": "1.0.0",
   "description": "a project for the moovit intern position",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elemyoav/moovit_proj.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yoav Elem",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/elemyoav/moovit_proj/issues"
   },
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.10",
-    "chai-http": "^4.4.0"
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
   }
 }
