@@ -37,7 +37,7 @@ Replace `<your-image-name>` with the name you gave to your Docker image during t
 To enable automatic container restart, you can use the following command:
 
 ```bash
-docker run -p 8080:8080 --restart always <your-image-name>
+docker run -p 8080:8080 --restart unless-stopped <your-image-name>
 ```
 
 This will ensure that the container restarts automatically unless explicitly stopped.
