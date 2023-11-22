@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/elemyoav/moovit_proj/issues"
   },
-  "homepage": "https://github.com/elemyoav/moovit_proj#readme"
+  "homepage": "https://github.com/elemyoav/moovit_proj#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
