@@ -27,6 +27,7 @@ pipeline {
     post {
         success {
             echo 'Pipeline succeeded! You can add additional steps for success here.'
+            
         }
         failure {
             echo 'Pipeline failed! You can add additional steps for failure here.'
